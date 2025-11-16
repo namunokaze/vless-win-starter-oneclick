@@ -67,9 +67,16 @@ IV. When config.json is in place and filled, run `prepare-and-start.bat`, prefer
 
 You must see non-red lines of log:
 ```
-INFO[0000] inbound/mixed[mixed-in]: tcp server started at 127.0.0.1:2080
+INFO[0000] inbound/mixed[mixed-in]: tcp server started at 127.0.0.1:1084
 INFO[0000] sing-box started (0.11s)
+<running lines>
 ```
+
+V. To stop proxy, **press any button in console window** and **then** close the window. Otherwise you will lose Internet connection till you fix it (see below). 
+
+If you have already lost Internet connection: 
+A-way. Run the .bat again. Press any key. Close the window. 
+B-way. Go to system settings, find `proxy` (system proxy), disable it. 
 
 ---
 
