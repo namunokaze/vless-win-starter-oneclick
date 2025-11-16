@@ -17,7 +17,7 @@ Simple one-click VLESS proxy starter for Windows using sing-box.
 ## Needed folder structure
 
 ```
-vless-win-starter-simple/
+internet-enabler/
 ├── prepare-and-start.bat
 └── config.json (your version based on config-filled-fake.json)
 ```
