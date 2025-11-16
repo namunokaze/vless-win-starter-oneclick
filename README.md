@@ -83,11 +83,15 @@ INFO[0000] sing-box started (0.11s)
 <running lines>
 ```
 
-V. To stop proxy, **press any button in console window** and **then** close the window. Otherwise you will lose Internet connection till you fix it (see below). 
+**Do NOT close the window**
 
-If you have already lost Internet connection: 
-- A-way. Run the .bat again. Press any key. Close the window. 
-- B-way. Go to system settings, find `proxy` (system proxy), disable it. 
+V. To stop proxy, **press any button in console window**, so it can make necessary quit routines for proper closure. Otherwise you will lose Internet connection till you fix it (see below). 
+
+**If you have already lost Internet connection:**
+- A-way. Run the `.bat` again. Press any key. Close the window. 
+- B-way. Go to system settings, find `proxy` (system proxy), disable it.
+
+After you disabled proxy, it can take some time to actually reset to your default network mode (0-60 sec usually). 
 
 ## How to check if proxy works
 
