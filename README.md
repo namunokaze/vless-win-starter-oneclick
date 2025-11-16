@@ -8,6 +8,7 @@ Simple one-click VLESS proxy starter for Windows using sing-box.
 
 - Extremely simple: one-button proxy enable/disable. 
 - Minimal configuration
+- Auto dependency pulling
 - Most compatible version (1.9.7) of most modern proxy engine (sing-box), downloaded automatically on first run
 - AK47-like - simple and reliable
 
