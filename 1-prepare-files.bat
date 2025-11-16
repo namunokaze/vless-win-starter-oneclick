@@ -29,7 +29,7 @@ if not exist "%SINGBOX_ZIP%" (
     if errorlevel 1 (
         echo.
         echo ERROR: Failed to download sing-box!
-        echo Please check your internet connection.
+        echo Please check your internet connection or download it from another source.
         pause
         exit /b 1
     )
