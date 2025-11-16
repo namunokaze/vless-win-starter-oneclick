@@ -53,9 +53,9 @@ Use the table:
 | sid       | 8k222b3475800923                            | short_id               | 8k222b3475800923                            |
 | fp        | random                                      | fingerprint            | random                                      |
 
+---
 
-
-The other way is to use Nekoray:
+Or using Nekoray:
 1. Download: https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip
 2. Import your VLESS subscription/key into Nekoray
 3. Export ready VLESS config from it: `Share` > `Export sing-box config (Ctrl+E)`
@@ -65,6 +65,7 @@ The other way is to use Nekoray:
 
 IV. When config.json is in place and filled, run `prepare-and-start.bat`, preferably as Admin
 
+---
 
 Page Views:
 
