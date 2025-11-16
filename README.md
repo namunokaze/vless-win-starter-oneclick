@@ -42,4 +42,4 @@ vless-win-starter-simple/
        `server_name` - SNI (e.g., www.microsoft.com)
 ```
 
-4. Run `prepare-and-start.bat`
+4. Run `prepare-and-start.bat`, preferably as Admin
