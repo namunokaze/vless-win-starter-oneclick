@@ -63,7 +63,7 @@ Or using Nekoray:
 
 ---
 
-IV. When config.json is in place and filled, run `prepare-and-start.bat`, preferably as Admin
+IV. When config.json is in place and filled, run `prepare-and-start.bat`, Admin rights should be unneeded. 
 
 You must see non-red lines of log:
 ```
