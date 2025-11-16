@@ -101,6 +101,10 @@ After you disabled proxy, it can take some time to reset to your default network
 1. Open https://whoer.net in browser
 2. Check if your IP/country location changed
 
+## Known issues
+- System proxy settings window must not be open during toggling proxy on and off. Otherwide changes will not be accepted by Windows for unknown reason. 
+- If you ran `.bat` and system proxy settings window shows that proxy is active but actually this is not so, you need to press `Save` in that window. It will solve the problem, for unknown reason. 
+
 ## Security Warning
 
 - Never share your `config.json` file - it contains your credentials
