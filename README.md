@@ -19,6 +19,9 @@ Simple one-click VLESS proxy starter for Windows using sing-box.
 - Keeps the proxy active while the `cmd` window is open. As long as you see the window, the proxy is active.
 - On key press, disables proxy and terminates `sing-box.exe`
 
+<img width="1394" height="560" alt="image" src="https://github.com/user-attachments/assets/3e5db0d1-b063-48d7-893b-75ff83f0ab63" />
+
+
 ## Requirements
 
 - Windows 10 or newer
