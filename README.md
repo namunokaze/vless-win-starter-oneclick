@@ -28,10 +28,7 @@ vless-win-starter-simple/
 2. Rename `config-template.json` to `config.json`
 3. Fill `config.json` with your server/subscription details:
 ```
-     Get your VLESS key (`vless://...`)
-     Replace `vless://` for `https://`
-     Copy-paste to your browser address bar and hit `Enter`
-     Wait till VLESS server details load and appear in browser window
+     Get your VLESS key. Usually you have VLESS subscription link starting with `https://`. Open it. There you will have your VLESS key starting with (`vless://...`). Paramenters you need are inside of it. 
      Fill your `config.json` with them accordingly:
 
        `server` - your server address
@@ -40,6 +37,10 @@ vless-win-starter-simple/
        `public_key` - Reality public key
        `short_id` - Reality short ID
        `server_name` - SNI (e.g., www.microsoft.com)
+```
+
+```
+The other way is to import your VLESS subscription link into Nekoray (can be downloaded here: https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip) and then export VLESS key from it (Share > Export sing-box config (Ctrl+E)). You will get config.json too, but not so manually. 
 ```
 
 4. Run `prepare-and-start.bat`, preferably as Admin
