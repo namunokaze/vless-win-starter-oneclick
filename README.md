@@ -19,14 +19,14 @@ Simple one-click VLESS proxy starter for Windows using sing-box.
 ```
 vless-win-starter-simple/
 ├── prepare-and-start.bat
-└── config.json (filled-in config-template.json)
+└── config.json (your version based on config-filled-fake.json)
 ```
 
 ## What to do
 
-I. Download this repository or just files separately: config-template.json and prepare-and-start.bat
+I. Download this repository or just files separately: `config-filled-fake.json` and `prepare-and-start.bat`
 
-II. Rename `config-template.json` to `config.json`
+II. Rename `config-filled-fake.json` to `config.json`
 
 ---
 III. Fill `config.json` with your server details:
