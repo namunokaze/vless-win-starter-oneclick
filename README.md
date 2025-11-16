@@ -94,7 +94,7 @@ V. To stop proxy, **press any button in console window**, so it can make necessa
 - A-way. Run the `.bat` again. Press any key. Close the window. 
 - B-way. Go to system settings, find `proxy` (system proxy), disable it.
 
-After you disabled proxy, it can take some time to actually reset to your default network mode (0-60 sec usually). 
+After you disabled proxy, it can take some time to reset to your default network mode (0-60 sec usually). If it does not, go to system settings, find `proxy` (system proxy), just look at it and close the window. Windows-magic!
 
 ## How to check if proxy works
 
