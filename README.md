@@ -1,7 +1,7 @@
 # VLESS Windows Starter 
-\+ VLESS link parsing explained simply
 
-Simple one-click VLESS proxy starter for Windows using sing-box.
+Simple one-click VLESS proxy starter for Windows using sing-box. 
+\+ VLESS link parsing explained simply
 
 ## Features
 
