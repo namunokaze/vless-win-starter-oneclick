@@ -9,6 +9,13 @@ Simple one-click VLESS proxy starter for Windows using sing-box.
 - Most compatible version (1.9.7) of most modern proxy engine (sing-box), downloaded automatically on first run
 - AK47-like - simple and reliable
 
+## What it does
+
+- Starts `sing-box.exe`
+- Enables system-wide proxy on `127.0.0.1:1084`
+- Keeps the proxy active while the `cmd` window is open
+- On key press, disables proxy and terminates `sing-box.exe`
+
 ## Requirements
 
 - Windows 10 or newer
