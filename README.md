@@ -13,9 +13,9 @@ Simple one-click VLESS proxy starter for Windows using sing-box.
 
 ## What it does
 
-- Starts `sing-box.exe`
+- Starts `sing-box.exe` on `127.0.0.1:1084`
 - Enables system-wide proxy on `127.0.0.1:1084`
-- Keeps the proxy active while the `cmd` window is open
+- Keeps the proxy active while the `cmd` window is open. As long as you see the window, the proxy is active.
 - On key press, disables proxy and terminates `sing-box.exe`
 
 ## Requirements
