@@ -68,7 +68,7 @@ Or using Nekoray:
 1. Download: https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip
 2. Import your VLESS subscription/key into Nekoray
 3. Export ready VLESS config from it: `Share` > `Export sing-box config (Ctrl+E)`
-   You will get config.json too, but not so manually. 
+   You will get config.json too, but not so manually.
 
 ---
 
@@ -91,6 +91,12 @@ If you have already lost Internet connection:
 
 1. Open https://whoer.net in browser
 2. Check if your IP/country location changed
+
+## Security Warning
+
+- Never share your `config.json` file - it contains your credentials
+- Keep this folder private
+- Use only trusted VLESS servers
 
 ---
 
