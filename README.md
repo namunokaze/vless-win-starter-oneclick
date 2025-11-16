@@ -26,7 +26,7 @@ vless-win-starter-simple/
 
 1. Download this repository or just files separately: config-template.json and prepare-and-start.bat
 2. Rename `config-template.json` to `config.json`
-3. Fill `client.json` with your server/subscription details:
+3. Fill `config.json` with your server/subscription details:
 ```
      Get your VLESS key (`vless://...`)
      Replace `vless://` for `https://`
