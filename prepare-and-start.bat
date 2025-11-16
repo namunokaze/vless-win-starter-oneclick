@@ -32,17 +32,17 @@ if not exist "sing-box.exe" (
     echo Extraction complete
 )
 
-rem Check if client.json exists
-if not exist "client.json" (
-    echo ERROR: client.json not found! Please create config file.
-    echo You can use client.json.example as template.
+rem Check if config.json exists
+if not exist "config.json" (
+    echo ERROR: config.json not found! Please create config file.
+    echo You can use config.json.example as template.
     pause
     exit /b 1
 )
 
 rem Start sing-box VLESS client
 echo Starting sing-box...
-start "" /b sing-box.exe run -c client.json
+start "" /b sing-box.exe run -c config.json
 
 rem Small delay to let sing-box start
 timeout /t 2 /nobreak >nul
